@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(90deg, rgb(28, 28, 107), rgb(143, 1, 143));
+}
+
+#container {
+  background-color: white;
+  width: 30%;
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+#add,
+input {
+  border-radius: 16px;
+  padding: 18px;
+  width: 50%;
+}
+
+input {
+  position: relative;
+  background-color: rgb(237, 238, 240);
+  border: none;
+}
+
+#add {
+  background-color: rgb(235, 94, 73);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#inputandbtn {
+    display: flex;
+}
+
+#add:active {
+    transform: scale(1.025);
+    transition: all .1s;
+}
+
+#tasklist:hover {
+    border-radius: 12px;
+    background-color: rgb(225, 225, 225);
+    transition: all .1s;
+  
+}
+
+#tasklist {
+ 
+
+}
+
+.checkboxAndli {
+    border: hidden red;
+    display: flex;
+    
+
+}
+
+
+
+.crossed-out {
+    text-decoration: line-through;
+}
